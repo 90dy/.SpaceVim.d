@@ -1,0 +1,45 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "graphql",
+    "prisma",
+    "graphql",
+    "prisma"
+  ],
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "filetypes": [
+        "go",
+        "go"
+      ],
+      "rootPatterns": [
+        "go.mod",
+        "go.mod"
+      ],
+      "trace.server": "verbose"
+    },
+    "prisma": {
+      "command": "prisma-language-server",
+      "filetypes": [
+        "prisma",
+        "prisma"
+      ]
+    },
+    "terraform": {
+      "args": [
+        "serve",
+        "serve"
+      ],
+      "command": "terraform-ls",
+      "filetypes": [
+        "terraform",
+        "tf",
+        "terraform",
+        "tf"
+      ],
+      "initializationOptions": {},
+      "settings": {}
+    }
+  },
+  "tsserver.enable": true
+}

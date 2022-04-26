@@ -1,0 +1,88 @@
+[[custom_plugins]]
+  merged = false
+  repo = "lilydjwg/colorizer"
+
+[[custom_plugins]]
+  merged = false
+  repo = "neoclide/coc.nvim"
+
+[[custom_plugins]]
+  merged = true
+  repo = "pantharshit00/vim-prisma"
+
+[[custom_plugins]]
+  merge = true
+  repo = "wakatime/vim-wakatime"
+
+[[layers]]
+  name = "lang#go"
+
+[[layers]]
+  auto-completion-return-key-behavior = "complete"
+  auto-completion-tab-key-behavior = "cycle"
+  auto_completion_delay = 50.0
+  name = "autocomplete"
+
+[[layers]]
+  default_height = 30.0
+  default_position = "top"
+  name = "shell"
+
+[[layers]]
+  format_on_save = true
+  name = "format"
+
+[[layers]]
+  name = "debug"
+
+[[layers]]
+  name = "incsearch"
+
+[[layers]]
+  name = "colorscheme"
+
+[[layers]]
+  name = "ctrlp"
+
+[[layers]]
+  name = "lang#markdown"
+
+[[layers]]
+  name = "git"
+
+[[layers]]
+  name = "lang#vim"
+
+[[layers]]
+  name = "lang#python"
+
+[[layers]]
+  format_on_save = true
+  name = "lang#rust"
+  recommended_style = true
+
+[[layers]]
+  name = "lang#graphql"
+
+[[layers]]
+  name = "lang#typescript"
+  typescript_server_path = "/Users/90dy/.volta/bin/tsserver"
+
+[[layers]]
+  filetypes = ["typescript"]
+  name = "lsp"
+
+[options]
+  autocomplete_method = "coc"
+  automatic_update = true
+  bootstrap_after = "myspacevim#after"
+  bootstrap_before = "myspacevim#before"
+  buffer_index_type = 4.0
+  colorscheme = "onedark"
+  colorscheme_bg = "dark"
+  enable_guicolors = true
+  enable_statusline_mode = false
+  enable_tabline_filetype_icon = true
+  filetree_direction = "left"
+  statusline_iseparator = "arrow"
+  statusline_separator = "arrow"
